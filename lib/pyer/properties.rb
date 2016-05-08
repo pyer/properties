@@ -32,7 +32,7 @@ module Pyer
         i = line.index('=')
         next if i < 1
         line.chop! if line[-1] == "\n"
-        @settings.merge!(line[0, i].strip.to_sym => line[i + 1, line.length - 2].strip)
+        @settings[line[0, i].strip.to_sym] = line[i + 1, line.length - 2].strip
       end
     end
   end
