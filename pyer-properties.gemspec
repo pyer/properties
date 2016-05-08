@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name          = 'pyer-properties'
-  s.version       = '1.0.0'
+  s.version       = '1.0.1'
   s.author        = 'Pierre BAZONNARD'
   s.email         = ['pierre.bazonnard@gmail.com']
   s.homepage      = 'https://github.com/pyer/properties'
-  s.summary       = 'Read a properties file in a hash map'
+  s.summary       = 'Read a properties file. Keys are methods.'
   s.license       = 'MIT'
 
   s.files         = ['lib/pyer/properties.rb']
