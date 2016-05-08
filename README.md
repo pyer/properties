@@ -11,7 +11,7 @@ Format of properties file
 
     key1 = value1
     key2=value2
-    \# comment
+    # comment
     ; another comment
 
 Using properties class
